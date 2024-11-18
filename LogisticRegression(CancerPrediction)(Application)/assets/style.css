@@ -1,0 +1,136 @@
+.st-emotion-cache-13k62yr {
+
+  background: linear-gradient(135deg, #29024d, #111111, #010155);
+  background-size: 400% 400%; /* To allow smooth animation */
+
+  animation: gradientAnimation 21s ease infinite; /* Animation duration and loop */
+}
+
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+ 
+
+
+.st-emotion-cache-j5r0tf {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #1a1d1f;
+
+}
+
+
+.st-emotion-cache-6qob1r {
+  background-color: #1a1d1f;
+}
+
+
+
+#cancer-predictor {
+  color: #ffffff; /* Bright green for emphasis */
+  font-family: 'Poppins', sans-serif; /* Modern and clean font */
+  font-weight: bold; /* Make it stand out */
+  font-size: 2rem; /* Adjust size to be more prominent */
+  text-transform: uppercase; /* Capitalize all letters for impact */
+  letter-spacing: 2px; /* Add some spacing for a sleek look */
+  
+  opacity: 0; /* Start invisible */
+  transform: translateX(-50px); /* Start slightly off-screen to the left */
+  animation: slideInFromLeft 1.8s ease-out forwards; /* Smooth left-to-right animation */
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px); /* Off-screen */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* Fully in place */
+  }
+}
+
+
+
+
+
+p {
+  font-family: 'Poppins', sans-serif; /* Modern and clean font */
+  margin-bottom: 1.8rem;
+  opacity: 0; /* Start invisible */
+  transform: translateY(20px); /* Slight upward shift for added effect */
+  animation: fadeIn 1.5s ease-out forwards; /* Smooth fade-in animation */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+h2 {
+  font-family: 'Poppins', sans-serif; /* Modern and clean font */
+
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif; /* Modern and clean font */
+}
+  
+  .diagnosis {
+    color: #fff;
+    padding: 0.2em 0.5em;
+    border-radius: 0.5em;
+  }
+  
+  .diagnosis.benign {
+    background-color: #04c042
+  }
+  
+  .diagnosis.malicious {
+    background-color: #fb4242
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); /* Add signature-like font */
+
+  .credit {
+    font-family: 'Great Vibes', cursive; /* Signature-like font */
+    font-size: 1.1rem; /* Adjust font size for elegance */
+    font-weight: 400; /* Keep it light for a signature feel */
+    background: linear-gradient(90deg, #a712f1, #ae3cfb); /* Soothing gradient effect */
+    -webkit-background-clip: text; /* Clip the gradient to the text */
+    -webkit-text-fill-color: transparent; /* Make the gradient visible */
+    text-align: center; /* Center the text */
+    letter-spacing: 1px; /* Slight spacing for a refined look */
+    margin-top: 2rem; /* Add some spacing above for breathing room */
+    animation: gradientShift 3s ease infinite; /* Animate the gradient */
+  }
+  
+  /* Keyframes for gradient animation */
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
